@@ -1,0 +1,40 @@
+POST http://localhost:5000/api/users/signup
+
+{ 
+    "name":"ramu", 
+    "email": "ramu.g123@gmail.com", 
+    "password":"123" 
+    
+}
+### 
+
+
+POST http://localhost:5000/api/users/login
+
+{
+    "email":"ramu.g123@gmail.com",
+    "password": "123"
+}
+###
+
+POST http://localhost:5000/api/todos/
+
+{ "title": "how to read ramu", "description": "ramu's mind is very difficult to read", "status":"inprogress" }
+
+###
+
+GET http://localhost:5000/api/todos/
+###
+
+GET http://localhost:5000/api/todos/:3
+###
+
+PUT http://localhost:5000/api/todos/:4 
+
+{
+    "status":"completed"
+}
+###
+
+DELETE http://localhost:5000/api/todos/:3
+###
