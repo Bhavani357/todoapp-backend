@@ -7,6 +7,9 @@
     "dev": "nodemon app.js",
     "build": "./build"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "author": "",
   "license": "ISC",
   "description": "",
